@@ -125,10 +125,9 @@ flowchart LR
 | Average order value | $219.64 |
 | Cancellation rate | 5.74% |
 | Orders | 106,787 |
-| Revenue from the top 20% of products | 76.3% |
-| Largest states | CA 13.4%, TX 9.3%, FL 6.9%, NY 6.3% |
+| Largest states | CA 13.01%, TX 9.06%, FL 6.52%, NY 6.39% |
 
-Net revenue and item revenue reconcile exactly: item revenue + subtotal adjustments − discounts + shipping + tax = net revenue.
+net revenue = item revenue + subtotal adjustments − discounts + shipping + tax
 
 
 
