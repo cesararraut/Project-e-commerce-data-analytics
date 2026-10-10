@@ -1,0 +1,23 @@
+# Paste-ready BigQuery schemas for the console
+#
+# In BigQuery Console > Create table > Schema, UNTICK 'Auto detect',
+# click 'Edit as text', and paste the single line for that table.
+# Every column is STRING on purpose - this is a raw layer (IDs included: they are labels, not numbers).
+
+## customers  (13 columns)
+_row_id:STRING,customer_id:STRING,email:STRING,first_name:STRING,last_name:STRING,phone:STRING,city:STRING,state:STRING,zip_code:STRING,country:STRING,signup_date:STRING,updated_at:STRING,_ingested_at:STRING
+
+## products  (12 columns)
+_row_id:STRING,product_id:STRING,sku:STRING,product_name:STRING,brand:STRING,category:STRING,list_price:STRING,unit_cost:STRING,is_active:STRING,launch_date:STRING,discontinued_date:STRING,_ingested_at:STRING
+
+## orders  (15 columns)
+_row_id:STRING,order_id:STRING,customer_id:STRING,order_ts:STRING,order_status:STRING,channel:STRING,subtotal:STRING,discount_amount:STRING,shipping_fee:STRING,tax_amount:STRING,order_total:STRING,currency:STRING,shipping_state:STRING,updated_at:STRING,_ingested_at:STRING
+
+## order_items  (9 columns)
+_row_id:STRING,order_item_id:STRING,order_id:STRING,product_id:STRING,sku:STRING,quantity:STRING,unit_price:STRING,line_total:STRING,_ingested_at:STRING
+
+## payments  (8 columns)
+_row_id:STRING,payment_id:STRING,order_id:STRING,payment_ts:STRING,payment_method:STRING,payment_status:STRING,amount:STRING,_ingested_at:STRING
+
+## budget  (8 columns)
+budget_month:STRING,channel:STRING,plan_version:STRING,revenue_target:STRING,orders_target:STRING,revenue_orders_target:STRING,cancelled_orders_target:STRING,new_customers_target:STRING
