@@ -134,9 +134,9 @@ net revenue = item revenue + subtotal adjustments − discounts + shipping + tax
 
 ## Tools
 
-BigQuery (Standard SQL) · Looker Studio 
+BigQuery · SQL · Looker Studio 
 
 ## Author
 
 **César Augusto Arrauth López** · Industrial Engineer · 
-[LinkedIn](www.linkedin.com/in/césar-arrauth)
+[LinkedIn](https://www.linkedin.com/in/c%C3%A9sar-arrauth/)
