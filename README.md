@@ -1,6 +1,6 @@
 # E-commerce Analytics Pipeline: from messy raw data to a revenue recovery case
 
-I created an end-to-end analytics project in **BigQuery** and **Looker Studio**. It takes 544K raw rows from six tables, covering **January 2024 to August 2026**, I cleaned nine data defects. Also, I built a star schema with a **budget-vs-actual** mart, I used it to explain a weak year: why **5.74% of orders are cancelled**, to compare the actual budget compliance from 2024 to August 2026 , and finally, to make data-informed decisions to fix the consistent issue, considering the possible root cause of the high cancellation rate.
+I created an end-to-end analytics project in **BigQuery** and **Looker Studio**. It takes six tables, covering **January 2024 to August 2026**, I cleaned nine data defects. Also, I built a star schema with a **budget-vs-actual** mart, I used it to explain a weak year: why **5.74% of orders are cancelled**, to compare the actual budget compliance from 2024 to August 2026 , and finally, to make data-informed decisions to fix the consistent issue, considering the possible root cause of the high cancellation rate.
 
 **[View the Looker Studio dashboard - Press here](https://datastudio.google.com/reporting/89bca2ba-19d2-4587-b4c5-abe2320880ec)**
 
