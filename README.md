@@ -89,7 +89,7 @@ Output from this query (R = Recovered or Recovery):
 
 ```mermaid
 flowchart LR
-    A["6 CSV files<br/>"] -->|" load<br/>all columns STRING"| B["raw<br/>landing layer"]
+    A["6 CSV datasets<br/>"] -->|" load<br/>all columns STRING"| B["raw<br/>landing layer"]
     B -->|"dedupe, parse dates,<br/>cast money, normalize"| C["staging<br/>stg. tables"]
     C --> T{"tests<br/> I expected 0 rows"}
    
